@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
-import LoginForm from "./components/LoginForm";
 import { MovieContext } from "./contexts/MovieContext";
+
+import LoginForm from "./components/LoginForm";
 import Home from "./components/Home";
 export default function App() {
 

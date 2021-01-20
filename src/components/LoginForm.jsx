@@ -15,7 +15,6 @@ export default function LoginForm() {
             .then((userFb) => {
                 //Sign In
                 setCurrentUser(userFb.user);
-                //setCurrentUser(userFb.user);
             })
             .catch((error) => {
                 let errorCode = error.code;
